@@ -12,7 +12,7 @@ class QueueIO
     @queue.push(data)
   end
 
-  def read(bytes)
+  def read()
     return if @closed
     @pending.pop(true) # non-blocking, best effort
 

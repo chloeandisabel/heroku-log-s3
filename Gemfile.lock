@@ -26,6 +26,7 @@ PLATFORMS
 DEPENDENCIES
   aws-sdk
   heroku-log-parser!
+  json
   newrelic_rpm
   puma
   rack
@@ -34,4 +35,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.5
+   1.13.1
